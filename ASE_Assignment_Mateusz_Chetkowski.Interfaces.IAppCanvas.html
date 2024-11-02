@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IAppCanvas </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IAppCanvas ">
+    
+    <meta name="description" content="Interface for an application canvas that provides methods for different commands">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas">
+
+
+
+  <h1 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas" class="text-break">Interface IAppCanvas</h1>
+  <div class="markdown level0 summary"><p>Interface for an application canvas that provides methods for different commands</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.html">ASE_Assignment_Mateusz_Chetkowski</a>.<a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.Interfaces.html">Interfaces</a></h6>
+  <h6><strong>Assembly</strong>: ASE Assignment Mateusz Chetkowski.dll</h6>
+  <h5 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IAppCanvas : ICanvas</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L44">View Source</a>
+  </span>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)">ChangePenColor(Color)</h4>
+  <div class="markdown level1 summary"><p>Command the change the pen's colour</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangePenColor(Color newColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">newColor</span></td>
+        <td><p>The colour to be used as the pen's new colour</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L48">View Source</a>
+  </span>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Command to clear the canvas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L38">View Source</a>
+  </span>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)">DrawCircle(int, int, int)</h4>
+  <div class="markdown level1 summary"><p>Draws a circle at the specified position given the radius of the circle</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DrawCircle(int x, int y, int radius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x-coordinate of the center of the circle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y-command of the center of the circle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">radius</span></td>
+        <td><p>The radius of the circle</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L30">View Source</a>
+  </span>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)">DrawRect(int, int, int, int)</h4>
+  <div class="markdown level1 summary"><p>Draws a rectangle at the specified position with the given width and height</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DrawRect(int x, int y, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The x-coordinate of the top left corner of the rectangle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The y-coordinate of the top left corner of the rectangle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The width of the rectangle</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height of the rectangle</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L53">View Source</a>
+  </span>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap" data-uid="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap">GetBitmap()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the current bitmap representing the canvas, allowing for display or further processing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Bitmap GetBitmap()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a></td>
+        <td><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.bitmap">Bitmap</a> object representing the current drawing on the canvas</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
