@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  id: ICanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ICanvas
+    path: Interfaces/IAppCanvas.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Represents a baasic canvas interface with common canvas functionalities
+  example: []
+  syntax:
+    content: public interface ICanvas
+    content.vb: Public Interface ICanvas
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html

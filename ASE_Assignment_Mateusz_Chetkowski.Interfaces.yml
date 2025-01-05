@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  id: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  type: Namespace
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas.html
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html
+  name: IAppCanvas
+  nameWithType: IAppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters-1.html
+  name: ICommandOneParameters<T1>
+  nameWithType: ICommandOneParameters<T1>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters<T1>
+  nameWithType.vb: ICommandOneParameters(Of T1)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters(Of T1)
+  name.vb: ICommandOneParameters(Of T1)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+    name: ICommandOneParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters-1.html
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+    name: ICommandOneParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  name: ICommandThreeParameters<T1, T2, T3>
+  nameWithType: ICommandThreeParameters<T1, T2, T3>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3)
+  name.vb: ICommandThreeParameters(Of T1, T2, T3)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters-2.html
+  name: ICommandTwoParameters<T1, T2>
+  nameWithType: ICommandTwoParameters<T1, T2>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters<T1, T2>
+  nameWithType.vb: ICommandTwoParameters(Of T1, T2)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters(Of T1, T2)
+  name.vb: ICommandTwoParameters(Of T1, T2)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+    name: ICommandTwoParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters-2.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+    name: ICommandTwoParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html

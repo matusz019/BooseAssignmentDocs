@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski
+  id: ASE_Assignment_Mateusz_Chetkowski
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Mateusz_Chetkowski
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski
+  fullName: ASE_Assignment_Mateusz_Chetkowski
+  type: Namespace
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI
+  href: ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI.html
+  name: BOOSEInterpreterUI
+  nameWithType: BOOSEInterpreterUI
+  fullName: ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI

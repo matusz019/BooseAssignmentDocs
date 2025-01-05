@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  id: MyReal
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign(System.String,System.String)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare(System.String,System.Double)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression(System.String)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get(System.String)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MyReal
+  nameWithType: MyReal
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: MyReal
+    path: Classes/MyReal.cs
+    startLine: 9
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Manages the declaration and manipulation of real (double-precision) variables, including arithmetic operations.
+  example: []
+  syntax:
+    content: public class MyReal
+    content.vb: Public Class MyReal
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor
+  id: '#ctor'
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: MyReal()
+  nameWithType: MyReal.MyReal()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.MyReal()
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: .ctor
+    path: Classes/MyReal.cs
+    startLine: 16
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Initializes a new instance of the <xref href="ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public MyReal()
+    content.vb: Public Sub New()
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor*
+  nameWithType.vb: MyReal.New()
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.New()
+  name.vb: New()
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare(System.String,System.Double)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare(System.String,System.Double)
+  id: Declare(System.String,System.Double)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: Declare(string, double)
+  nameWithType: MyReal.Declare(string, double)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare(string, double)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Declare
+    path: Classes/MyReal.cs
+    startLine: 27
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Declares a new real variable with an optional initial value.
+  example: []
+  syntax:
+    content: public void Declare(string name, double value = 0)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the variable to declare.
+    - id: value
+      type: System.Double
+      description: The initial value of the variable. Defaults to 0.0.
+    content.vb: Public Sub [Declare](name As String, value As Double = 0)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if the variable is already declared.
+  nameWithType.vb: MyReal.Declare(String, Double)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare(String, Double)
+  name.vb: Declare(String, Double)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign(System.String,System.String)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign(System.String,System.String)
+  id: Assign(System.String,System.String)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: Assign(string, string)
+  nameWithType: MyReal.Assign(string, string)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign(string, string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Assign
+    path: Classes/MyReal.cs
+    startLine: 41
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Assigns a value to an existing variable. Supports arithmetic expressions.
+  example: []
+  syntax:
+    content: public void Assign(string name, string expression)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the variable to assign a value to.
+    - id: expression
+      type: System.String
+      description: The arithmetic expression to evaluate and assign.
+    content.vb: Public Sub Assign(name As String, expression As String)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if the variable is not declared.
+  nameWithType.vb: MyReal.Assign(String, String)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign(String, String)
+  name.vb: Assign(String, String)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get(System.String)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get(System.String)
+  id: Get(System.String)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: Get(string)
+  nameWithType: MyReal.Get(string)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Get
+    path: Classes/MyReal.cs
+    startLine: 55
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Retrieves the value of a declared variable.
+  example: []
+  syntax:
+    content: public double Get(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the variable.
+    return:
+      type: System.Double
+      description: The value of the variable.
+    content.vb: Public Function [Get](name As String) As Double
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if the variable is not declared.
+  nameWithType.vb: MyReal.Get(String)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get(String)
+  name.vb: Get(String)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared(System.String)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared(System.String)
+  id: IsVariableDeclared(System.String)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: IsVariableDeclared(string)
+  nameWithType: MyReal.IsVariableDeclared(string)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: IsVariableDeclared
+    path: Classes/MyReal.cs
+    startLine: 68
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Checks if a variable is declared.
+  example: []
+  syntax:
+    content: public bool IsVariableDeclared(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the variable to check.
+    return:
+      type: System.Boolean
+      description: True if the variable is declared; otherwise, false.
+    content.vb: Public Function IsVariableDeclared(name As String) As Boolean
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared*
+  nameWithType.vb: MyReal.IsVariableDeclared(String)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared(String)
+  name.vb: IsVariableDeclared(String)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression(System.String)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression(System.String)
+  id: EvaluateExpression(System.String)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  langs:
+  - csharp
+  - vb
+  name: EvaluateExpression(string)
+  nameWithType: MyReal.EvaluateExpression(string)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression(string)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyReal.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: EvaluateExpression
+    path: Classes/MyReal.cs
+    startLine: 79
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Evaluates a complex arithmetic expression.
+  example: []
+  syntax:
+    content: public double EvaluateExpression(string expression)
+    parameters:
+    - id: expression
+      type: System.String
+      description: The arithmetic expression to evaluate.
+    return:
+      type: System.Double
+      description: The result of the evaluated expression.
+    content.vb: Public Function EvaluateExpression(expression As String) As Double
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if the expression is invalid or contains undeclared variables.
+  nameWithType.vb: MyReal.EvaluateExpression(String)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression(String)
+  name.vb: EvaluateExpression(String)
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Classes
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html
+  name: MyReal
+  nameWithType: MyReal
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.#ctor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal__ctor
+  name: MyReal
+  nameWithType: MyReal.MyReal
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.MyReal
+  nameWithType.vb: MyReal.New
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.New
+  name.vb: New
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal_Declare_System_String_System_Double_
+  name: Declare
+  nameWithType: MyReal.Declare
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Declare
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal_Assign_System_String_System_String_
+  name: Assign
+  nameWithType: MyReal.Assign
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Assign
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal_Get_System_String_
+  name: Get
+  nameWithType: MyReal.Get
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.Get
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal_IsVariableDeclared_System_String_
+  name: IsVariableDeclared
+  nameWithType: MyReal.IsVariableDeclared
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.IsVariableDeclared
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyReal_EvaluateExpression_System_String_
+  name: EvaluateExpression
+  nameWithType: MyReal.EvaluateExpression
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.EvaluateExpression

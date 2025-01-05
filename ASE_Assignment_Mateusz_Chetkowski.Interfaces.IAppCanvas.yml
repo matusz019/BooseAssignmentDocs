@@ -1,0 +1,443 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  id: IAppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  langs:
+  - csharp
+  - vb
+  name: IAppCanvas
+  nameWithType: IAppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: IAppCanvas
+    path: Interfaces/IAppCanvas.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Interface for an application canvas that provides methods for different commands
+  example: []
+  syntax:
+    content: 'public interface IAppCanvas : ICanvas'
+    content.vb: Public Interface IAppCanvas Inherits ICanvas
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawRect(int, int, int, int)
+  nameWithType: IAppCanvas.DrawRect(int, int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(int, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawRect
+    path: Interfaces/IAppCanvas.cs
+    startLine: 29
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Draws a rectangle at the specified position with the given width and height
+  example: []
+  syntax:
+    content: void DrawRect(int x, int y, int width, int height)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the top left corner of the rectangle
+    - id: y
+      type: System.Int32
+      description: The y-coordinate of the top left corner of the rectangle
+    - id: width
+      type: System.Int32
+      description: The width of the rectangle
+    - id: height
+      type: System.Int32
+      description: The height of the rectangle
+    content.vb: Sub DrawRect(x As Integer, y As Integer, width As Integer, height As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect*
+  nameWithType.vb: IAppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  name.vb: DrawRect(Integer, Integer, Integer, Integer)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  id: DrawCircle(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(int, int, int)
+  nameWithType: IAppCanvas.DrawCircle(int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawCircle
+    path: Interfaces/IAppCanvas.cs
+    startLine: 37
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Draws a circle at the specified position given the radius of the circle
+  example: []
+  syntax:
+    content: void DrawCircle(int x, int y, int radius)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the center of the circle
+    - id: y
+      type: System.Int32
+      description: The y-command of the center of the circle
+    - id: radius
+      type: System.Int32
+      description: The radius of the circle
+    content.vb: Sub DrawCircle(x As Integer, y As Integer, radius As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle*
+  nameWithType.vb: IAppCanvas.DrawCircle(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(Integer, Integer, Integer)
+  name.vb: DrawCircle(Integer, Integer, Integer)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  id: ChangePenColor(System.Drawing.Color)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: ChangePenColor(Color)
+  nameWithType: IAppCanvas.ChangePenColor(Color)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ChangePenColor
+    path: Interfaces/IAppCanvas.cs
+    startLine: 43
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Command the change the pen's colour
+  example: []
+  syntax:
+    content: void ChangePenColor(Color newColor)
+    parameters:
+    - id: newColor
+      type: System.Drawing.Color
+      description: The colour to be used as the pen's new colour
+    content.vb: Sub ChangePenColor(newColor As Color)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor*
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  id: GetPenColor
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetPenColor()
+  nameWithType: IAppCanvas.GetPenColor()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: GetPenColor
+    path: Interfaces/IAppCanvas.cs
+    startLine: 48
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Command to get the pen colour currently in use
+  example: []
+  syntax:
+    content: Color GetPenColor()
+    return:
+      type: System.Drawing.Color
+    content.vb: Function GetPenColor() As Color
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor*
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  id: DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, int, int, Font, Brush)
+  nameWithType: IAppCanvas.DrawText(string, int, int, Font, Brush)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(string, int, int, System.Drawing.Font, System.Drawing.Brush)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawText
+    path: Interfaces/IAppCanvas.cs
+    startLine: 58
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Draws some text at the specified position
+  example: []
+  syntax:
+    content: void DrawText(string text, int x, int y, Font font, Brush brush)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to be drawn on the cnavas
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the start of the text
+    - id: y
+      type: System.Int32
+      description: The y-coordinate of the start of the text
+    - id: font
+      type: System.Drawing.Font
+      description: The font the text is in
+    - id: brush
+      type: System.Drawing.Brush
+      description: The brush that will be used to write the text
+    content.vb: Sub DrawText(text As String, x As Integer, y As Integer, font As Font, brush As Brush)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText*
+  nameWithType.vb: IAppCanvas.DrawText(String, Integer, Integer, Font, Brush)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(String, Integer, Integer, System.Drawing.Font, System.Drawing.Brush)
+  name.vb: DrawText(String, Integer, Integer, Font, Brush)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  id: Clear
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: IAppCanvas.Clear()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Clear
+    path: Interfaces/IAppCanvas.cs
+    startLine: 63
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Command to clear the canvas
+  example: []
+  syntax:
+    content: void Clear()
+    content.vb: Sub Clear()
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear*
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  id: GetBitmap
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetBitmap()
+  nameWithType: IAppCanvas.GetBitmap()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/IAppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: GetBitmap
+    path: Interfaces/IAppCanvas.cs
+    startLine: 68
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Retrieves the current bitmap representing the canvas, allowing for display or further processing
+  example: []
+  syntax:
+    content: Bitmap GetBitmap()
+    return:
+      type: System.Drawing.Bitmap
+      description: A <xref href="System.Drawing.Bitmap" data-throw-if-not-resolved="false"></xref> object representing the current drawing on the canvas
+    content.vb: Function GetBitmap() As Bitmap
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap*
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: DrawRect
+  nameWithType: IAppCanvas.DrawRect
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_
+  name: DrawCircle
+  nameWithType: IAppCanvas.DrawCircle
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_
+  name: ChangePenColor
+  nameWithType: IAppCanvas.ChangePenColor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetPenColor
+  name: GetPenColor
+  nameWithType: IAppCanvas.GetPenColor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawText_System_String_System_Int32_System_Int32_System_Drawing_Font_System_Drawing_Brush_
+  name: DrawText
+  nameWithType: IAppCanvas.DrawText
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Drawing.Font
+  commentId: T:System.Drawing.Font
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.font
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font
+- uid: System.Drawing.Brush
+  commentId: T:System.Drawing.Brush
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Drawing.Brush
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear
+  name: Clear
+  nameWithType: IAppCanvas.Clear
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap
+  name: GetBitmap
+  nameWithType: IAppCanvas.GetBitmap
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap

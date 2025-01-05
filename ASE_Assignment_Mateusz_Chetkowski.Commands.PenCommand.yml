@@ -1,0 +1,664 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  id: PenCommand
+  parent: ASE_Assignment_Mateusz_Chetkowski.Commands
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas,System.Drawing.Point)
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute(System.Int32,System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PenCommand
+  nameWithType: PenCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Commands/PenCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: PenCommand
+    path: Commands/PenCommand.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Commands
+  summary: Command to change the pen's colour
+  example: []
+  syntax:
+    content: 'public class PenCommand : ICommandThreeParameters<int, int, int>'
+    content.vb: Public Class PenCommand Implements ICommandThreeParameters(Of Integer, Integer, Integer)
+  inheritance:
+  - System.Object
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas,System.Drawing.Point)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas,System.Drawing.Point)
+  id: '#ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas,System.Drawing.Point)'
+  parent: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  langs:
+  - csharp
+  - vb
+  name: PenCommand(IAppCanvas, Point)
+  nameWithType: PenCommand.PenCommand(IAppCanvas, Point)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.PenCommand(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas, System.Drawing.Point)
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Commands/PenCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: .ctor
+    path: Commands/PenCommand.cs
+    startLine: 21
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Commands
+  summary: initialises a new instance of <xref href="ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand" data-throw-if-not-resolved="false"></xref> class with a specified canvas position and the current position of the pen
+  example: []
+  syntax:
+    content: public PenCommand(IAppCanvas canvas, Point currentPosition)
+    parameters:
+    - id: canvas
+      type: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+      description: The canvas on which the pen colour should be changed on
+    - id: currentPosition
+      type: System.Drawing.Point
+      description: The current position of the pen
+    content.vb: Public Sub New(canvas As IAppCanvas, currentPosition As Point)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor*
+  nameWithType.vb: PenCommand.New(IAppCanvas, Point)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.New(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas, System.Drawing.Point)
+  name.vb: New(IAppCanvas, Point)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute(System.Int32,System.Int32,System.Int32)
+  id: Execute(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute(int, int, int)
+  nameWithType: PenCommand.Execute(int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Commands/PenCommand.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Execute
+    path: Commands/PenCommand.cs
+    startLine: 32
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Commands
+  summary: Executes the pen command, updating the pens colour with specified rgb values
+  example: []
+  syntax:
+    content: public void Execute(int r, int g, int b)
+    parameters:
+    - id: r
+      type: System.Int32
+      description: the value of the red portion of the colour
+    - id: g
+      type: System.Int32
+      description: the value of the green portion of the colour
+    - id: b
+      type: System.Int32
+      description: the value of the blue protion of the colour
+    content.vb: Public Sub Execute(r As Integer, g As Integer, b As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}.Execute(System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: PenCommand.Execute(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute(Integer, Integer, Integer)
+  name.vb: Execute(Integer, Integer, Integer)
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Commands
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Commands
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Commands
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands
+    name: Commands
+    href: ASE_Assignment_Mateusz_Chetkowski.Commands.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands
+    name: Commands
+    href: ASE_Assignment_Mateusz_Chetkowski.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  definition: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  name: ICommandThreeParameters<int, int, int>
+  nameWithType: ICommandThreeParameters<int, int, int>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<int, int, int>
+  nameWithType.vb: ICommandThreeParameters(Of Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of Integer, Integer, Integer)
+  name.vb: ICommandThreeParameters(Of Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  name: ICommandThreeParameters<T1, T2, T3>
+  nameWithType: ICommandThreeParameters<T1, T2, T3>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3)
+  name.vb: ICommandThreeParameters(Of T1, T2, T3)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: '>'
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.html
+  name: PenCommand
+  nameWithType: PenCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.#ctor
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.html#ASE_Assignment_Mateusz_Chetkowski_Commands_PenCommand__ctor_ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_System_Drawing_Point_
+  name: PenCommand
+  nameWithType: PenCommand.PenCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.PenCommand
+  nameWithType.vb: PenCommand.New
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.New
+  name.vb: New
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html
+  name: IAppCanvas
+  nameWithType: IAppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.point
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.html#ASE_Assignment_Mateusz_Chetkowski_Commands_PenCommand_Execute_System_Int32_System_Int32_System_Int32_
+  name: Execute
+  nameWithType: PenCommand.Execute
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.Execute
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}.Execute(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}.Execute(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}
+  definition: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  name: Execute(int, int, int)
+  nameWithType: ICommandThreeParameters<int, int, int>.Execute(int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<int, int, int>.Execute(int, int, int)
+  nameWithType.vb: ICommandThreeParameters(Of Integer, Integer, Integer).Execute(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of Integer, Integer, Integer).Execute(Integer, Integer, Integer)
+  name.vb: Execute(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}.Execute(System.Int32,System.Int32,System.Int32)
+    name: Execute
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters{System.Int32,System.Int32,System.Int32}.Execute(System.Int32,System.Int32,System.Int32)
+    name: Execute
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  name: Execute(T1, T2, T3)
+  nameWithType: ICommandThreeParameters<T1, T2, T3>.Execute(T1, T2, T3)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>.Execute(T1, T2, T3)
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3).Execute(T1, T2, T3)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3).Execute(T1, T2, T3)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+    name: Execute
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+    name: Execute
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )

@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  id: ICommandTwoParameters`2
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute(`0,`1)
+  langs:
+  - csharp
+  - vb
+  name: ICommandTwoParameters<T1, T2>
+  nameWithType: ICommandTwoParameters<T1, T2>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters<T1, T2>
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandTwoParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ICommandTwoParameters
+    path: Interfaces/ICommandTwoParameters.cs
+    startLine: 13
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Represents a command interface that requires two parameters for execution
+  example: []
+  syntax:
+    content: public interface ICommandTwoParameters<T1, T2>
+    typeParameters:
+    - id: T1
+      description: The type of the first parameter used for execution
+    - id: T2
+      description: The type of the second parameter used for execution
+    content.vb: Public Interface ICommandTwoParameters(Of T1, T2)
+  nameWithType.vb: ICommandTwoParameters(Of T1, T2)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters(Of T1, T2)
+  name.vb: ICommandTwoParameters(Of T1, T2)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute(`0,`1)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute(`0,`1)
+  id: Execute(`0,`1)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+  langs:
+  - csharp
+  - vb
+  name: Execute(T1, T2)
+  nameWithType: ICommandTwoParameters<T1, T2>.Execute(T1, T2)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters<T1, T2>.Execute(T1, T2)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandTwoParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Execute
+    path: Interfaces/ICommandTwoParameters.cs
+    startLine: 20
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Executes the command with the specified parameters
+  example: []
+  syntax:
+    content: void Execute(T1 parameter1, T2 parameter2)
+    parameters:
+    - id: parameter1
+      type: '{T1}'
+      description: The first parameter required to to execute the command
+    - id: parameter2
+      type: '{T2}'
+      description: The second parameter required to to execute the command
+    content.vb: Sub Execute(parameter1 As T1, parameter2 As T2)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute*
+  nameWithType.vb: ICommandTwoParameters(Of T1, T2).Execute(T1, T2)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters(Of T1, T2).Execute(T1, T2)
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2.Execute
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters-2.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandTwoParameters_2_Execute__0__1_
+  name: Execute
+  nameWithType: ICommandTwoParameters<T1, T2>.Execute
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters<T1, T2>.Execute
+  nameWithType.vb: ICommandTwoParameters(Of T1, T2).Execute
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters(Of T1, T2).Execute
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2

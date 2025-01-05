@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Classes
+  id: ASE_Assignment_Mateusz_Chetkowski.Classes
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Classes
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes
+  type: Namespace
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.html
+  name: BooseInterpreter
+  nameWithType: BooseInterpreter
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray.html
+  name: MyArray
+  nameWithType: MyArray
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.html
+  name: MyFor
+  nameWithType: MyFor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf.html
+  name: MyIf
+  nameWithType: MyIf
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt.html
+  name: MyInt
+  nameWithType: MyInt
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser.html
+  name: MyParser
+  nameWithType: MyParser
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal.html
+  name: MyReal
+  nameWithType: MyReal
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory.html
+  name: ShapeFactory
+  nameWithType: ShapeFactory
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Classes
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html

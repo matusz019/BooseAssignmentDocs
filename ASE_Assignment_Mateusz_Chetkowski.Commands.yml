@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Commands
+  id: ASE_Assignment_Mateusz_Chetkowski.Commands
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  - ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand
+  langs:
+  - csharp
+  - vb
+  name: ASE_Assignment_Mateusz_Chetkowski.Commands
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Commands
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands
+  type: Namespace
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand.html
+  name: CircleCommand
+  nameWithType: CircleCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand.html
+  name: MoveCommand
+  nameWithType: MoveCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand.html
+  name: PenCommand
+  nameWithType: PenCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand.html
+  name: RectCommand
+  nameWithType: RectCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand

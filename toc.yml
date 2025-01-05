@@ -1,0 +1,53 @@
+### YamlMime:TableOfContent
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski
+  name: ASE_Assignment_Mateusz_Chetkowski
+  items:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.BOOSEInterpreterUI
+    name: BOOSEInterpreterUI
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  items:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+    name: AppCanvas
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter
+    name: BooseInterpreter
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyArray
+    name: MyArray
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+    name: MyFor
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyIf
+    name: MyIf
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+    name: MyInt
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyParser
+    name: MyParser
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyReal
+    name: MyReal
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory
+    name: ShapeFactory
+- uid: ASE_Assignment_Mateusz_Chetkowski.Commands
+  name: ASE_Assignment_Mateusz_Chetkowski.Commands
+  items:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands.CircleCommand
+    name: CircleCommand
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands.MoveCommand
+    name: MoveCommand
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands.PenCommand
+    name: PenCommand
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Commands.RectCommand
+    name: RectCommand
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  items:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+    name: IAppCanvas
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+    name: ICanvas
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+    name: ICommandOneParameters<T1>
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+    name: ICommandThreeParameters<T1, T2, T3>
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandTwoParameters`2
+    name: ICommandTwoParameters<T1, T2>
+memberLayout: SamePage

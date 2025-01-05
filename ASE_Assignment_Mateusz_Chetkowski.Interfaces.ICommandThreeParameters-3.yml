@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  id: ICommandThreeParameters`3
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  langs:
+  - csharp
+  - vb
+  name: ICommandThreeParameters<T1, T2, T3>
+  nameWithType: ICommandThreeParameters<T1, T2, T3>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandThreeParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ICommandThreeParameters
+    path: Interfaces/ICommandThreeParameters.cs
+    startLine: 14
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Represents a command interface that requires a three parameter for execution
+  example: []
+  syntax:
+    content: public interface ICommandThreeParameters<T1, T2, T3>
+    typeParameters:
+    - id: T1
+      description: The type of first parameter required for execution
+    - id: T2
+      description: The type of seconod parameter required for execution
+    - id: T3
+      description: The type of third parameter required for execution
+    content.vb: Public Interface ICommandThreeParameters(Of T1, T2, T3)
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3)
+  name.vb: ICommandThreeParameters(Of T1, T2, T3)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute(`0,`1,`2)
+  id: Execute(`0,`1,`2)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3
+  langs:
+  - csharp
+  - vb
+  name: Execute(T1, T2, T3)
+  nameWithType: ICommandThreeParameters<T1, T2, T3>.Execute(T1, T2, T3)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>.Execute(T1, T2, T3)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandThreeParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Execute
+    path: Interfaces/ICommandThreeParameters.cs
+    startLine: 22
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Executes the command with the specified parameter
+  example: []
+  syntax:
+    content: void Execute(T1 parameter1, T2 parameter2, T3 parameter3)
+    parameters:
+    - id: parameter1
+      type: '{T1}'
+      description: The first parameter required to execute  the command
+    - id: parameter2
+      type: '{T2}'
+      description: The second parameter required to execute the command
+    - id: parameter3
+      type: '{T3}'
+      description: The third parameter required to execute the command
+    content.vb: Sub Execute(parameter1 As T1, parameter2 As T2, parameter3 As T3)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute*
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3).Execute(T1, T2, T3)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3).Execute(T1, T2, T3)
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters`3.Execute
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters-3.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandThreeParameters_3_Execute__0__1__2_
+  name: Execute
+  nameWithType: ICommandThreeParameters<T1, T2, T3>.Execute
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters<T1, T2, T3>.Execute
+  nameWithType.vb: ICommandThreeParameters(Of T1, T2, T3).Execute
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandThreeParameters(Of T1, T2, T3).Execute
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: '{T2}'
+  commentId: '!:T2'
+  definition: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: '{T3}'
+  commentId: '!:T3'
+  definition: T3
+  name: T3
+  nameWithType: T3
+  fullName: T3
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T2
+  name: T2
+  nameWithType: T2
+  fullName: T2
+- uid: T3
+  commentId: '!:T3'
+  name: T3
+  nameWithType: T3
+  fullName: T3

@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  id: ICommandOneParameters`1
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute(`0)
+  langs:
+  - csharp
+  - vb
+  name: ICommandOneParameters<T1>
+  nameWithType: ICommandOneParameters<T1>
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters<T1>
+  type: Interface
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandOneParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ICommandOneParameters
+    path: Interfaces/ICommandOneParameters.cs
+    startLine: 12
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Represents a command interface that requires a single parameter for execution
+  example: []
+  syntax:
+    content: public interface ICommandOneParameters<T1>
+    typeParameters:
+    - id: T1
+      description: The type of the parameter required for execution
+    content.vb: Public Interface ICommandOneParameters(Of T1)
+  nameWithType.vb: ICommandOneParameters(Of T1)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters(Of T1)
+  name.vb: ICommandOneParameters(Of T1)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute(`0)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute(`0)
+  id: Execute(`0)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1
+  langs:
+  - csharp
+  - vb
+  name: Execute(T1)
+  nameWithType: ICommandOneParameters<T1>.Execute(T1)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters<T1>.Execute(T1)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Interfaces/ICommandOneParameters.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Execute
+    path: Interfaces/ICommandOneParameters.cs
+    startLine: 18
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  summary: Executes the command with the specified parameter
+  example: []
+  syntax:
+    content: void Execute(T1 parameter1)
+    parameters:
+    - id: parameter1
+      type: '{T1}'
+      description: The parameter required to execute  the command
+    content.vb: Sub Execute(parameter1 As T1)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute*
+  nameWithType.vb: ICommandOneParameters(Of T1).Execute(T1)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters(Of T1).Execute(T1)
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters`1.Execute
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters-1.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_ICommandOneParameters_1_Execute__0_
+  name: Execute
+  nameWithType: ICommandOneParameters<T1>.Execute
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters<T1>.Execute
+  nameWithType.vb: ICommandOneParameters(Of T1).Execute
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICommandOneParameters(Of T1).Execute
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1

@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  id: MyFor
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor(System.String,System.Int32,System.Int32,System.Int32)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand(System.Action)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute(ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt)
+  langs:
+  - csharp
+  - vb
+  name: MyFor
+  nameWithType: MyFor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyFor.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: MyFor
+    path: Classes/MyFor.cs
+    startLine: 8
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Represents a "for" loop structure capable of executing a series of commands over a range of values.
+  example: []
+  syntax:
+    content: public class MyFor
+    content.vb: Public Class MyFor
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor(System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor(System.String,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32,System.Int32)'
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  langs:
+  - csharp
+  - vb
+  name: MyFor(string, int, int, int)
+  nameWithType: MyFor.MyFor(string, int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.MyFor(string, int, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyFor.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: .ctor
+    path: Classes/MyFor.cs
+    startLine: 23
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Initializes a new instance of the <xref href="ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor" data-throw-if-not-resolved="false"></xref> class with the specified loop parameters.
+  example: []
+  syntax:
+    content: public MyFor(string variableName, int start, int end, int step)
+    parameters:
+    - id: variableName
+      type: System.String
+      description: The name of the loop variable.
+    - id: start
+      type: System.Int32
+      description: The starting value of the loop variable.
+    - id: end
+      type: System.Int32
+      description: The ending value of the loop variable.
+    - id: step
+      type: System.Int32
+      description: The increment (or decrement) for each iteration of the loop.
+    content.vb: Public Sub New(variableName As String, start As Integer, [end] As Integer, [step] As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor*
+  nameWithType.vb: MyFor.New(String, Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.New(String, Integer, Integer, Integer)
+  name.vb: New(String, Integer, Integer, Integer)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand(System.Action)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand(System.Action)
+  id: AddCommand(System.Action)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  langs:
+  - csharp
+  - vb
+  name: AddCommand(Action)
+  nameWithType: MyFor.AddCommand(Action)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand(System.Action)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyFor.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: AddCommand
+    path: Classes/MyFor.cs
+    startLine: 36
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Adds a command to be executed in each iteration of the loop.
+  example: []
+  syntax:
+    content: public void AddCommand(Action command)
+    parameters:
+    - id: command
+      type: System.Action
+      description: The command to be executed.
+    content.vb: Public Sub AddCommand(command As Action)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand*
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute(ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute(ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt)
+  id: Execute(ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  langs:
+  - csharp
+  - vb
+  name: Execute(MyInt)
+  nameWithType: MyFor.Execute(MyInt)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute(ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/MyFor.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Execute
+    path: Classes/MyFor.cs
+    startLine: 46
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Executes the loop, running all added commands for each value in the range defined by the loop parameters.
+  example: []
+  syntax:
+    content: public void Execute(MyInt intManager)
+    parameters:
+    - id: intManager
+      type: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+      description: The manager for handling integer variables within the loop context.
+    content.vb: Public Sub Execute(intManager As MyInt)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if the loop variable is not declared.
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Classes
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.html
+  name: MyFor
+  nameWithType: MyFor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.#ctor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyFor__ctor_System_String_System_Int32_System_Int32_System_Int32_
+  name: MyFor
+  nameWithType: MyFor.MyFor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.MyFor
+  nameWithType.vb: MyFor.New
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyFor_AddCommand_System_Action_
+  name: AddCommand
+  nameWithType: MyFor.AddCommand
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.AddCommand
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.html#ASE_Assignment_Mateusz_Chetkowski_Classes_MyFor_Execute_ASE_Assignment_Mateusz_Chetkowski_Classes_MyInt_
+  name: Execute
+  nameWithType: MyFor.Execute
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyFor.Execute
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt.html
+  name: MyInt
+  nameWithType: MyInt
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.MyInt

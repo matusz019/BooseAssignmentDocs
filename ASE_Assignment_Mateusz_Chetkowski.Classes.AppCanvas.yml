@@ -1,0 +1,1090 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  id: AppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  children:
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor(System.Drawing.Color)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance(System.Int32,System.Int32,System.Drawing.Color)
+  - ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor
+  langs:
+  - csharp
+  - vb
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  type: Class
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: AppCanvas
+    path: Classes/AppCanvas.cs
+    startLine: 10
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Represents a canvas that allows manipulation of the pen tool and supports drawing on a bitmap.
+  example: []
+  syntax:
+    content: 'public class AppCanvas : IAppCanvas, ICanvas'
+    content.vb: Public Class AppCanvas Implements IAppCanvas, ICanvas
+  inheritance:
+  - System.Object
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance(System.Int32,System.Int32,System.Drawing.Color)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance(System.Int32,System.Int32,System.Drawing.Color)
+  id: GetInstance(System.Int32,System.Int32,System.Drawing.Color)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetInstance(int, int, Color)
+  nameWithType: AppCanvas.GetInstance(int, int, Color)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance(int, int, System.Drawing.Color)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: GetInstance
+    path: Classes/AppCanvas.cs
+    startLine: 43
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Retrieves the singleton instance of the <xref href="ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public static AppCanvas GetInstance(int width = 800, int height = 600, Color penColor = default)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: The width of the canvas in pixels. Default is 800.
+    - id: height
+      type: System.Int32
+      description: The height of the canvas in pixels. Default is 600.
+    - id: penColor
+      type: System.Drawing.Color
+      description: The initial color of the pen. Default is <xref href="System.Drawing.Color.Black" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+      description: >-
+        A single instance of <xref href="ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas" data-throw-if-not-resolved="false"></xref> initialized with the specified dimensions and pen color.
+
+        If the instance already exists, it ignores the parameters and returns the existing instance.
+    content.vb: Public Shared Function GetInstance(width As Integer = 800, height As Integer = 600, penColor As Color = Nothing) As AppCanvas
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance*
+  nameWithType.vb: AppCanvas.GetInstance(Integer, Integer, Color)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance(Integer, Integer, System.Drawing.Color)
+  name.vb: GetInstance(Integer, Integer, Color)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawRect(int, int, int, int)
+  nameWithType: AppCanvas.DrawRect(int, int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect(int, int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawRect
+    path: Classes/AppCanvas.cs
+    startLine: 66
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Draws a rectangle on the canvas with the specified position and size.
+  example: []
+  syntax:
+    content: public void DrawRect(int x, int y, int width, int height)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the top-left corner of the rectangle.
+    - id: y
+      type: System.Int32
+      description: The y-coordinate of the top-left corner of the rectangle.
+    - id: width
+      type: System.Int32
+      description: The width of the rectangle.
+    - id: height
+      type: System.Int32
+      description: The height of the rectangle.
+    content.vb: Public Sub DrawRect(x As Integer, y As Integer, width As Integer, height As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: AppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  name.vb: DrawRect(Integer, Integer, Integer, Integer)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  id: DrawCircle(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle(int, int, int)
+  nameWithType: AppCanvas.DrawCircle(int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle(int, int, int)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawCircle
+    path: Classes/AppCanvas.cs
+    startLine: 77
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Draws a circle on the canvas with the specified position and radius.
+  example: []
+  syntax:
+    content: public void DrawCircle(int x, int y, int radius)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the circle's center.
+    - id: y
+      type: System.Int32
+      description: The y-coordinate of the circle's center.
+    - id: radius
+      type: System.Int32
+      description: The radius of the circle.
+    content.vb: Public Sub DrawCircle(x As Integer, y As Integer, radius As Integer)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  nameWithType.vb: AppCanvas.DrawCircle(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle(Integer, Integer, Integer)
+  name.vb: DrawCircle(Integer, Integer, Integer)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor(System.Drawing.Color)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor(System.Drawing.Color)
+  id: ChangePenColor(System.Drawing.Color)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: ChangePenColor(Color)
+  nameWithType: AppCanvas.ChangePenColor(Color)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor(System.Drawing.Color)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: ChangePenColor
+    path: Classes/AppCanvas.cs
+    startLine: 86
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Changes the pen's color.
+  example: []
+  syntax:
+    content: public void ChangePenColor(Color newColor)
+    parameters:
+    - id: newColor
+      type: System.Drawing.Color
+      description: The new color to set for the pen.
+    content.vb: Public Sub ChangePenColor(newColor As Color)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor
+  id: GetPenColor
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetPenColor()
+  nameWithType: AppCanvas.GetPenColor()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: GetPenColor
+    path: Classes/AppCanvas.cs
+    startLine: 91
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Command to get the pen colour currently in use
+  example: []
+  syntax:
+    content: public Color GetPenColor()
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Function GetPenColor() As Color
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  id: DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: DrawText(string, int, int, Font, Brush)
+  nameWithType: AppCanvas.DrawText(string, int, int, Font, Brush)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText(string, int, int, System.Drawing.Font, System.Drawing.Brush)
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: DrawText
+    path: Classes/AppCanvas.cs
+    startLine: 97
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Draws some text at the specified position
+  example: []
+  syntax:
+    content: public void DrawText(string text, int x, int y, Font font, Brush brush)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to be drawn on the cnavas
+    - id: x
+      type: System.Int32
+      description: The x-coordinate of the start of the text
+    - id: y
+      type: System.Int32
+      description: The y-coordinate of the start of the text
+    - id: font
+      type: System.Drawing.Font
+      description: The font the text is in
+    - id: brush
+      type: System.Drawing.Brush
+      description: The brush that will be used to write the text
+    content.vb: Public Sub DrawText(text As String, x As Integer, y As Integer, font As Font, brush As Brush)
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  nameWithType.vb: AppCanvas.DrawText(String, Integer, Integer, Font, Brush)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText(String, Integer, Integer, System.Drawing.Font, System.Drawing.Brush)
+  name.vb: DrawText(String, Integer, Integer, Font, Brush)
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear
+  id: Clear
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: AppCanvas.Clear()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: Clear
+    path: Classes/AppCanvas.cs
+    startLine: 105
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Clears the canvas by filling it with a gray background color.
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear()
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap
+  id: GetBitmap
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  langs:
+  - csharp
+  - vb
+  name: GetBitmap()
+  nameWithType: AppCanvas.GetBitmap()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap()
+  type: Method
+  source:
+    remote:
+      path: ASE Assignment Mateusz Chetkowski/Classes/AppCanvas.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-boose-assignment-matusz019.git
+    id: GetBitmap
+    path: Classes/AppCanvas.cs
+    startLine: 114
+  assemblies:
+  - ASE Assignment Mateusz Chetkowski
+  namespace: ASE_Assignment_Mateusz_Chetkowski.Classes
+  summary: Retrieves the current bitmap representing the canvas.
+  example: []
+  syntax:
+    content: public Bitmap GetBitmap()
+    return:
+      type: System.Drawing.Bitmap
+      description: The <xref href="System.Drawing.Bitmap" data-throw-if-not-resolved="false"></xref> containing the current drawing on the canvas.
+    content.vb: Public Function GetBitmap() As Bitmap
+  overload: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap*
+  implements:
+  - ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+references:
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Classes
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Classes
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Classes
+    name: Classes
+    href: ASE_Assignment_Mateusz_Chetkowski.Classes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html
+  name: IAppCanvas
+  nameWithType: IAppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas.html
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.ICanvas
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  commentId: N:ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  href: ASE_Assignment_Mateusz_Chetkowski.html
+  name: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  nameWithType: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski
+    name: ASE_Assignment_Mateusz_Chetkowski
+    href: ASE_Assignment_Mateusz_Chetkowski.html
+  - name: .
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces
+    name: Interfaces
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.html
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  commentId: T:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+  parent: ASE_Assignment_Mateusz_Chetkowski.Classes
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas
+- uid: System.Drawing.Color.Black
+  commentId: P:System.Drawing.Color.Black
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color.black
+  name: Black
+  nameWithType: Color.Black
+  fullName: System.Drawing.Color.Black
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_GetInstance_System_Int32_System_Int32_System_Drawing_Color_
+  name: GetInstance
+  nameWithType: AppCanvas.GetInstance
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetInstance
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: DrawRect
+  nameWithType: AppCanvas.DrawRect
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawRect
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  isExternal: true
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: DrawRect(int, int, int, int)
+  nameWithType: IAppCanvas.DrawRect(int, int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(int, int, int, int)
+  nameWithType.vb: IAppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(Integer, Integer, Integer, Integer)
+  name.vb: DrawRect(Integer, Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawRect
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+    name: DrawRect
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawRect_System_Int32_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_
+  name: DrawCircle
+  nameWithType: AppCanvas.DrawCircle
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawCircle
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  isExternal: true
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_
+  name: DrawCircle(int, int, int)
+  nameWithType: IAppCanvas.DrawCircle(int, int, int)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(int, int, int)
+  nameWithType.vb: IAppCanvas.DrawCircle(Integer, Integer, Integer)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(Integer, Integer, Integer)
+  name.vb: DrawCircle(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+    name: DrawCircle
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawCircle(System.Int32,System.Int32,System.Int32)
+    name: DrawCircle
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawCircle_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_ChangePenColor_System_Drawing_Color_
+  name: ChangePenColor
+  nameWithType: AppCanvas.ChangePenColor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.ChangePenColor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  isExternal: true
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_
+  name: ChangePenColor(Color)
+  nameWithType: IAppCanvas.ChangePenColor(Color)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+    name: ChangePenColor
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.ChangePenColor(System.Drawing.Color)
+    name: ChangePenColor
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_ChangePenColor_System_Drawing_Color_
+  - name: (
+  - uid: System.Drawing.Color
+    name: Color
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_GetPenColor
+  name: GetPenColor
+  nameWithType: AppCanvas.GetPenColor
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetPenColor
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetPenColor
+  name: GetPenColor()
+  nameWithType: IAppCanvas.GetPenColor()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor()
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+    name: GetPenColor
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetPenColor
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetPenColor
+    name: GetPenColor
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetPenColor
+  - name: (
+  - name: )
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_DrawText_System_String_System_Int32_System_Int32_System_Drawing_Font_System_Drawing_Brush_
+  name: DrawText
+  nameWithType: AppCanvas.DrawText
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.DrawText
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  isExternal: true
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawText_System_String_System_Int32_System_Int32_System_Drawing_Font_System_Drawing_Brush_
+  name: DrawText(string, int, int, Font, Brush)
+  nameWithType: IAppCanvas.DrawText(string, int, int, Font, Brush)
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(string, int, int, System.Drawing.Font, System.Drawing.Brush)
+  nameWithType.vb: IAppCanvas.DrawText(String, Integer, Integer, Font, Brush)
+  fullName.vb: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(String, Integer, Integer, System.Drawing.Font, System.Drawing.Brush)
+  name.vb: DrawText(String, Integer, Integer, Font, Brush)
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+    name: DrawText
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawText_System_String_System_Int32_System_Int32_System_Drawing_Font_System_Drawing_Brush_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Font
+    name: Font
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.font
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.brush
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.DrawText(System.String,System.Int32,System.Int32,System.Drawing.Font,System.Drawing.Brush)
+    name: DrawText
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_DrawText_System_String_System_Int32_System_Int32_System_Drawing_Font_System_Drawing_Brush_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Font
+    name: Font
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.font
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Brush
+    name: Brush
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.brush
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Drawing.Font
+  commentId: T:System.Drawing.Font
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.font
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font
+- uid: System.Drawing.Brush
+  commentId: T:System.Drawing.Brush
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.brush
+  name: Brush
+  nameWithType: Brush
+  fullName: System.Drawing.Brush
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_Clear
+  name: Clear
+  nameWithType: AppCanvas.Clear
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.Clear
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear
+  name: Clear()
+  nameWithType: IAppCanvas.Clear()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear()
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+    name: Clear
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.Clear
+    name: Clear
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_Clear
+  - name: (
+  - name: )
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap*
+  commentId: Overload:ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap
+  href: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Classes_AppCanvas_GetBitmap
+  name: GetBitmap
+  nameWithType: AppCanvas.GetBitmap
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Classes.AppCanvas.GetBitmap
+- uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  commentId: M:ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+  parent: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas
+  href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap
+  name: GetBitmap()
+  nameWithType: IAppCanvas.GetBitmap()
+  fullName: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap()
+  spec.csharp:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+    name: GetBitmap
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.GetBitmap
+    name: GetBitmap
+    href: ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html#ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_GetBitmap
+  - name: (
+  - name: )
