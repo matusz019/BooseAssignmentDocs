@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class BooseInterpreter </title>
+      <title>Class ShapeFactory </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class BooseInterpreter ">
+      <meta name="title" content="Class ShapeFactory ">
     
-    <meta name="description" content="Interpreter for the BOOSE language, responsible for processing and executing drawing commands on a canvas.">
+    <meta name="description" content="Factory for creating shape commands">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter">
+            <article class="content wrap" id="_content" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory">
 
 
 
-  <h1 id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter" class="text-break">Class BooseInterpreter</h1>
-  <div class="markdown level0 summary"><p>Interpreter for the BOOSE language, responsible for processing and executing drawing commands on a canvas.</p>
+  <h1 id="ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory" class="text-break">Class ShapeFactory</h1>
+  <div class="markdown level0 summary"><p>Factory for creating shape commands</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">BooseInterpreter</span></div>
+    <div class="level1"><span class="xref">ShapeFactory</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,63 +105,27 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.html">ASE_Assignment_Mateusz_Chetkowski</a>.<a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.Classes.html">Classes</a></h6>
   <h6><strong>Assembly</strong>: ASE Assignment Mateusz Chetkowski.dll</h6>
-  <h5 id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter_syntax">Syntax</h5>
+  <h5 id="ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BooseInterpreter</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ShapeFactory</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter__ctor_ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.%23ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Classes/BooseInterpreter.cs/#L21">View Source</a>
-  </span>
-  <a id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter__ctor_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.#ctor*"></a>
-  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter__ctor_ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.#ctor(ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas)">BooseInterpreter(IAppCanvas)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.html">BooseInterpreter</a> class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BooseInterpreter(IAppCanvas canvas)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html">IAppCanvas</a></td>
-        <td><span class="parametername">canvas</span></td>
-        <td><p>The canvas where commands will be executed.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter_Interpret_System_String_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.Interpret(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory_CreateCommand_System_String_ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_System_Drawing_Point_.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory.CreateCommand(System.String%2CASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas%2CSystem.Drawing.Point)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Classes/BooseInterpreter.cs/#L32">View Source</a>
+    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Classes/ShapeFactory.cs/#L24">View Source</a>
   </span>
-  <a id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter_Interpret_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.Interpret*"></a>
-  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter_Interpret_System_String_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter.Interpret(System.String)">Interpret(string)</h4>
-  <div class="markdown level1 summary"><p>Interprets and executes a series of BOOSE commands.</p>
+  <a id="ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory_CreateCommand_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory.CreateCommand*"></a>
+  <h4 id="ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory_CreateCommand_System_String_ASE_Assignment_Mateusz_Chetkowski_Interfaces_IAppCanvas_System_Drawing_Point_" data-uid="ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory.CreateCommand(System.String,ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas,System.Drawing.Point)">CreateCommand(string, IAppCanvas, Point)</h4>
+  <div class="markdown level1 summary"><p>Creates a shape command based on the type and parameters provided</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Interpret(string booseCode)</code></pre>
+    <pre><code class="lang-csharp hljs">public static object CreateCommand(string shapeType, IAppCanvas canvas, Point currentPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -175,8 +139,36 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">booseCode</span></td>
-        <td><p>The code containing BOOSE commands to be executed.</p>
+        <td><span class="parametername">shapeType</span></td>
+        <td><p>The type of the shape (e.g., &quot;circle&quot;, &quot;rect&quot;)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ASE_Assignment_Mateusz_Chetkowski.Interfaces.IAppCanvas.html">IAppCanvas</a></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas to execute the command on</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.point">Point</a></td>
+        <td><span class="parametername">currentPosition</span></td>
+        <td><p>The current position of the pen</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><p>An instance of ICommandOneParameters with the appropriate implementation</p>
 </td>
       </tr>
     </tbody>
@@ -190,10 +182,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Classes_BooseInterpreter.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Classes.BooseInterpreter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/new/main/apiSpec/new?filename=ASE_Assignment_Mateusz_Chetkowski_Classes_ShapeFactory.md&amp;value=---%0Auid%3A%20ASE_Assignment_Mateusz_Chetkowski.Classes.ShapeFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Classes/BooseInterpreter.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE-Classroom/ase-boose-assignment-matusz019/blob/main/ASE Assignment Mateusz Chetkowski/Classes/ShapeFactory.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
